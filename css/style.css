@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header, main{
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+/*Creating a Navigation Bar*/
+nav.nav-menu{
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1111;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: pink;
+}
+.menu-items{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.nav-menu ul li {
+    list-style-type: none;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.nav-menu ul li:hover{
+    background-color: #fff
+}
+
+/*Introduction*/
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 70px;
+    height: 100vh;
+}
+.intro img  {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.intro article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid pink;
+    border-bottom: 1px solid pink;
+
+}
+.intro article i.fab{
+    padding-left: 20px;
+    font-size: 30px;
+}
+.intro article h2{
+    font-size: 30px
+}
+
+/*About me*/
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/*Resume page*/
+.my-resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/*Projects page*/
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/*Contact Info page*/
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    height: 100vh;
+}
